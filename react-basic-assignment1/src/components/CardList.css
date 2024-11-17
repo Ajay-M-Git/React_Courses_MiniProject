@@ -1,0 +1,32 @@
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 1rem;
+}
